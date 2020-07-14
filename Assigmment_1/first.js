@@ -31,9 +31,9 @@ if (hour===0 && prepand===' PM ')
   hour=12;
   prepand=' AM';
   } 
-  } 
-document.write("\n");
-document.write("Today is : " + daylist[day] + ".");  
+  }
+document.write("Today is : " + daylist[day] + "."); 
+document.write("<br>");
 document.write("Current Time : "+hour + prepand + " : " + minute + " : " + second);
 
             
